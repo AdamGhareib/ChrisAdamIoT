@@ -21,7 +21,9 @@ Om de communicatie met Adafruit IO tot stand te kunnen brengen, moeten we wat ex
 3. Install (kies Install All)
 <img src="/images/InstallLibrary.png" width="375px">
 
-# Stap 2: Install the button
+# Step 2: Creating a feed
+
+# Step 3: Install the button
 
 Om gebruik te kunnen maken van Adafruit IO, moeten we eerst een account en een dashboard aanmaken. 
 
@@ -30,7 +32,7 @@ Om gebruik te kunnen maken van Adafruit IO, moeten we eerst een account en een d
 <img src="/images/ActivateKey.png">
 3. Kopieer je key en username
 
-# Stap 3: Upload & Verifiy the code
+# Step 4: Upload & Verify the code
 
 In adafruit IO
 
@@ -43,7 +45,7 @@ In adafruit IO
 6. Create Block
 7. Stel een kleur in met de Color Picker
 
-# Stap 4: Check the feed
+# Step 5: Check the feed
 
 1. In Arduino: File > Examples > Adafruit IO Arduino > Adafruitio_14_neopixel
 2. In tab ‘config.h’: plak je Adafruit IO username en Key in
@@ -59,9 +61,9 @@ Probleem:
 <img src="/images/Error1.png">
 <img src="/images/Error2.jpeg">
 
-Oplossing:
+Solution:
 <img src="/kjhuimages/Error3.png">
 
-# Bronnen:
+# Sources:
 
 https://docs.google.com/document/d/13Dvwrig2d11fmS7UafYM0o4nzgMpfTHDadrS2Py0mg0/edit#
