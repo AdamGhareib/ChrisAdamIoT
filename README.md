@@ -17,7 +17,7 @@ In this tutorial you will learn to control a NodeMCU, using a second NodeMCU
 In order to create a feed you have to use Adafruit.io.
 Once you've created an account on Adafruit, you have to navigate to the "Feeds" tab at the top.
 After clicking the tab, you should see a pop up like in the image shown below:
-<img src="/images/create_feed.png">
+<img src="/imagesiot/create_feed.png">
 
 # Step 2: Install the button
 
