@@ -1,16 +1,16 @@
-# Stuur een signaal van de ene NodeMCU naar de andere (via internet)
+# Send a signal from your NodeMCU to a different NodeMCU (Through the internet)
 
 - Gemaakt door Christiaan Dirven 500847226 & Adam el Ghareib, 500849066
-- 12 oktober 2022
+- 12 october 2022
 
 # Introduction
 
-In this tutorial you will learn to control a NodeMCU, using a second NodeMCU
+In this tutorial you will learn to send a signal from your NodeMCU to a different NodeMCU.
 
-# Benodigde hardware components
+# Required hardware components
 
 - 1x Arduino Board (ESP8266 Development Board)
-- 1x Button
+- 1x Arduino Button
 
 # Step 1: Creating and sharing a feed
 
@@ -63,3 +63,5 @@ Problem:
 # Sources:
 
 https://docs.google.com/document/d/13Dvwrig2d11fmS7UafYM0o4nzgMpfTHDadrS2Py0mg0/edit
+https://learn.adafruit.com/adafruit-io-basics-feeds/creating-a-feed
+https://learn.adafruit.com/adafruit-io-basics-feeds/sharing-a-feed
