@@ -3,27 +3,23 @@
 - Gemaakt door Christiaan Dirven 500847226 & Adam el Ghareib, 500849066
 - 12 oktober 2022
 
-# Introductie
+# Introduction
 
-In deze tutorial ga je leren 
+In this tutorial you will learn to control a NodeMCU, using a second NodeMCU
 
 # Benodigde hardware components
 
 - 1x Arduino Board (ESP8266 Development Board)
 - 1x Button
 
-# Stap 1: Make a feed
+# Step 1: Creating a feed
 
-Om de communicatie met Adafruit IO tot stand te kunnen brengen, moeten we wat extra libraries installeren met behulp van de Arduino 
+In order to create a feed you have to use Adafruit.io.
+Once you've created an account on Adafruit, you have to navigate to the "Feeds" tab at the top.
+After clicking the tab, you should see a pop up like in the image shown below:
+<img src="/images/create_feed.png">
 
-1. Klik op de 3e tab (zie onderstaande afbeelding) 
-2. zoek naar  Adafruit IO Arduino (by Adafruit) in in het zoekvak,
-3. Install (kies Install All)
-<img src="/images/InstallLibrary.png" width="375px">
-
-# Step 2: Creating a feed
-
-# Step 3: Install the button
+# Step 2: Install the button
 
 Om gebruik te kunnen maken van Adafruit IO, moeten we eerst een account en een dashboard aanmaken. 
 
@@ -32,7 +28,7 @@ Om gebruik te kunnen maken van Adafruit IO, moeten we eerst een account en een d
 <img src="/images/ActivateKey.png">
 3. Kopieer je key en username
 
-# Step 4: Upload & Verify the code
+# Step 3: Upload & Verify the code
 
 In adafruit IO
 
@@ -45,7 +41,7 @@ In adafruit IO
 6. Create Block
 7. Stel een kleur in met de Color Picker
 
-# Step 5: Check the feed
+# Step 4: Check the feed
 
 1. In Arduino: File > Examples > Adafruit IO Arduino > Adafruitio_14_neopixel
 2. In tab ‘config.h’: plak je Adafruit IO username en Key in
