@@ -12,21 +12,31 @@ In this tutorial you will learn to control a NodeMCU, using a second NodeMCU
 - 1x Arduino Board (ESP8266 Development Board)
 - 1x Button
 
-# Step 1: Creating a feed
+# Step 1: Creating and sharing a feed
 
 In order to create a feed you have to use Adafruit.io.
 Once you've created an account on Adafruit, you have to navigate to the "Feeds" tab at the top.
 After clicking the tab, you should see a pop up like in the image shown below:
 <img src="/imagesiot/create_feed.png">
+In the pop up, give your feed a name and select "create"
+
+In order to share your feed, you first have to go over to the share tab as shown in the image below:
+<img src="/imagesiot/feed_sharing.png">
+
+Once you've clicked this option, a pop up should appear prompting you to enter an email or username of the person you'd like
+to share the feed with.
+<img src="/imagesiot/feed_sharing_2.png">
+Once you've filled in the email or username of the person you want to share your feed with you can also determine their
+privileges within the feed by clicking the dropdown menu.
+<img src="/imagesiot/feed_sharing_3.png">
 
 # Step 2: Install the button
 
-Om gebruik te kunnen maken van Adafruit IO, moeten we eerst een account en een dashboard aanmaken. 
-
-1. Ga daarvoor naar https://io.adafruit.com/ , klik op “Get Started for Free” en maak een account aan.  
-2. In Adafruit IO: ga de gele sleutel in het menu
-<img src="/images/ActivateKey.png">
-3. Kopieer je key en username
+Installing the button goes as follows. First open Arduino. Once you've done that, navigate to examples > Adafruit IO > Adafruitio_06_digital.in
+Once you have the example file open, fill in your adafruit io username and key (you can aquire these by clicking on the yellow key when in adafruit io)
+Afterwards, fill in your wifi SSID and your wifi password. Normally this should work fine however, in our case we were unable to succesfully
+establish a connection as shown in the image below:
+<img src="/imagesiot/connection_error.png">
 
 # Step 3: Upload & Verify the code
 
@@ -43,23 +53,16 @@ In adafruit IO
 
 # Step 4: Check the feed
 
-1. In Arduino: File > Examples > Adafruit IO Arduino > Adafruitio_14_neopixel
-2. In tab ‘config.h’: plak je Adafruit IO username en Key in
-3. In tab ‘config.h’: voer het wifi netwerk en wachtwoord in 
-4. (De NodeMCU werkt niet op 5Ghz WiFi)
-5. Gebruik liefst de hotspot van je telefoon, dit gebruikt < 0.1 Mb data per uur, dus niet bang zijn
-6. in de Tab adafruit_14_Neopixel.ino
-7. Pas: #define **PIXEL_PIN 5** aan naar #define **PIXEL_PIN D5**
+If your code uploaded succesfully you should now see feedback in the feed you created earlier
 
 # Errors:
 
 Probleem:
-<img src="/images/Error1.png">
-<img src="/images/Error2.jpeg">
+<img src="/imagesiot/connection_error.png">
 
 Solution:
-<img src="/kjhuimages/Error3.png">
+
 
 # Sources:
 
-https://docs.google.com/document/d/13Dvwrig2d11fmS7UafYM0o4nzgMpfTHDadrS2Py0mg0/edit#
+https://docs.google.com/document/d/13Dvwrig2d11fmS7UafYM0o4nzgMpfTHDadrS2Py0mg0/edit
