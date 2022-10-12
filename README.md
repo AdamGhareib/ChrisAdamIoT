@@ -47,7 +47,7 @@ establish a connection as shown in the image below:
 
 # Step 3: Upload & Verify the code
 
-
+Now you can upload and verify the code! Check the serial monitor to see if you're connecting to the WiFi.
 
 # Step 4: Check the feed
 
